@@ -3,3 +3,4 @@ const msg = [
     ['you\'ve got to grab it', 'you\'ve got to hold on tight', 'don\'t let other people write your script'],
     ['never let it go', 'do it', 'learn everything', 'to be successful', 'achive all goals']
 ];
+
