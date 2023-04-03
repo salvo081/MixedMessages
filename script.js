@@ -4,3 +4,4 @@ const msg = [
     ['never let it go', 'do it', 'learn everything', 'to be successful', 'achive all goals']
 ];
 
+const getRandomNumber = (maxValue) => Math.floor(Math.random() * maxValue);
