@@ -5,3 +5,12 @@ const msg = [
 ];
 
 const getRandomNumber = (maxValue) => Math.floor(Math.random() * maxValue);
+
+let randomMsg = '';
+
+for (let i = 0; i<msg.length; i++) {
+    randomMsg += msg[i][getRandomNumber(msg[i].length)];
+    randomMsg += (i == 0) ? ', ' : (i == 1) ? ' and ' : '!';
+}
+
+console.log(randomMsg);
